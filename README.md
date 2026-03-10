@@ -66,7 +66,7 @@ open index.html    # Mac
 
 ## 📬 Contact
 
-- **Email**: satyaswaminadhyedida@gmail.com
+- **Email**: satyaswaminadhyedida07@gmail.com
 - **GitHub**: [satyaswaminadhyedida07](https://github.com/satyaswaminadhyedida07)
 - **Fiverr**: [satyaswaminadh7](https://www.fiverr.com/satyaswaminadh7)
 
