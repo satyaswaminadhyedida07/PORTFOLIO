@@ -149,6 +149,35 @@ img {
     margin-right: 1px;
 }
 
+.nav-logo-img {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid rgba(110, 231, 247, 0.3);
+    animation: breathing-glow 3s infinite ease-in-out;
+    transition: all 0.3s ease;
+    display: block;
+}
+
+.nav-logo-img:hover {
+    transform: scale(1.08) rotate(5deg);
+    border-color: rgba(110, 231, 247, 0.8);
+    box-shadow: 0 0 20px rgba(110, 231, 247, 0.6), 0 0 40px rgba(167, 139, 250, 0.4);
+}
+
+@keyframes breathing-glow {
+
+    0%,
+    100% {
+        box-shadow: 0 0 10px rgba(110, 231, 247, 0.3), 0 0 20px rgba(167, 139, 250, 0.1);
+    }
+
+    50% {
+        box-shadow: 0 0 25px rgba(110, 231, 247, 0.6), 0 0 45px rgba(167, 139, 250, 0.4);
+    }
+}
+
 .nav-links {
     display: flex;
     gap: 32px;
